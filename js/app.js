@@ -68,7 +68,7 @@ const callback = (entries) => {
 
 const observer = new IntersectionObserver(callback, options);
 
-const fadeIns = [...document.querySelectorAll(".fade-in")];
+const fadeIns = [...document.querySelectorAll(".fade__in")];
 fadeIns.forEach((el) => observer.observe(el));
 lines.forEach((el) => observer.observe(el));
 
