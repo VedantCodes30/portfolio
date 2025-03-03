@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | VedantCodes</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon//apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon//site.webmanifest" />
   </head>
   <body>
     <main>
+      <div class="hamburger"><span></span><span></span><span></span></div>
       <header class="fade_in">
         <div class="container">
           <svg
@@ -100,10 +119,96 @@
       </section>
 
       <section id="projects">
-        <div class="container">
+        <div class="container projects_grid">
           <h3 style="grid-column: span 12"></h3>
         </div>
       </section>
+
+      <section id="clients">
+        <div class="container">
+          <h3 style="grid-column: span 12; margin-bottom: 2rem">Clients</h3>
+          <div class="line"></div>
+          <div class="client fade-in">
+            <h4>Client One</h4>
+          </div>
+          <div class="line"></div>
+          <div class="client fade-in">
+            <h4>Client Two</h4>
+          </div>
+          <div class="line"></div>
+          <div class="client fade-in">
+            <h4>Client Three</h4>
+          </div>
+          <div class="line"></div>
+          <div class="client fade-in">
+            <h4>Client Four</h4>
+          </div>
+          <div class="line"></div>
+          <div class="client fade-in">
+            <h4>Client Five</h4>
+          </div>
+          <div class="line"></div>
+        </div>
+      </section>
+      <section id="cta_section">
+        <canvas id="squareCanvas"></canvas>
+        <div class="top_gradient"></div>
+        <div class="left_gradient"></div>
+        <div class="right_gradient"></div>
+
+        <div class="container">
+          <div class="cta_final fade-in">
+            <h3>Ready To Transform Your Digital Presence</h3>
+            <h5>Contact Us Today!</h5>
+            <a class="cta_button" href="">
+              <div style="color: white">Start Your Project</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="white"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  d="M237.66,122.34l-96-96A8,8,0,0,0,128,32V72H48A16,16,0,0,0,32,88v80a16,16,0,0,0,16,16h80v40a8,8,0,0,0,13.66,5.66l96-96A8,8,0,0,0,237.66,122.34ZM144,204.69V176a8,8,0,0,0-8-8H48V88h88a8,8,0,0,0,8-8V51.31L220.69,128Z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container footer_container">
+          <div class="footer_column">
+            <!--SVG LOGO-->
+            <p>Chhindwara <br />India <br />vedantcodes30@gmail.com</p>
+          </div>
+          <div class="footer_column">
+            <p>Stay Updated</p>
+            <p>
+              Subscribe to our newsletter for the latest updates and insights.
+            </p>
+            <form action="">
+              <input
+                type="email"
+                class="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button id="btn_submit">Subscribe</button>
+            </form>
+          </div>
+          <div class="footer_bottom">
+            <div>
+              <p>&copy; 2025 Vedant Codes. All Rights Reserved.</p>
+              <div class="footer_links">
+                <a href="">insta</a>
+                <a href="">github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
     <script type="module" src="./js/app.js"></script>
   </body>

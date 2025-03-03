@@ -56,4 +56,61 @@ const Services = [
   },
 ];
 
-export { Services };
+const projects = [
+  {
+    image:
+      "https://plus.unsplash.com/premium_photo-1683746792239-6ce8cdd3ac78?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "E-commerce Website",
+    description:
+      "A fully responsive and user-friendly e-commerce platform designed for a seamless shopping experience.",
+    services: [
+      "UI/UX Design",
+      "Custom Web Development",
+      "Mobile Optimization",
+      "Payment Gateway Integration",
+      "SEO Optimization",
+    ],
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG9ydGZvbGlvfGVufDB8MXwwfHx8MA%3D%3D",
+    title: "Portfolio Website",
+    description:
+      "A stylish and modern portfolio website designed to showcase the creative works of an individual or agency.",
+    services: [
+      "Custom Design",
+      "Content Management System (CMS)",
+      "SEO Optimization",
+      "Responsive Design",
+    ],
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1665686306574-1ace09918530?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Corporate Website",
+    description:
+      "A professional website for corporate businesses, ensuring an authoritative online presence with a focus on brand identity.",
+    services: [
+      "Branding & Design",
+      "Content Strategy",
+      "Web Hosting Setup",
+      "Responsive Web Design",
+      "Security Features",
+    ],
+  },
+  {
+    image:
+      "https://plus.unsplash.com/premium_photo-1686041335799-a140e5b3b35d?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Blog Website",
+    description:
+      "A blog site designed for easy content creation and management, with a clean and engaging layout.",
+    services: [
+      "Custom Blog Design",
+      "SEO Integration",
+      "Content Management System (CMS)",
+      "Responsive Design",
+    ],
+  },
+];
+
+export { Services, projects };
