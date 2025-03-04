@@ -18,15 +18,17 @@
 }
 
 /* .fade_in {
-  opacity: 0;
+  opacity: 1;
+  position: relative;
+
   transition: 1s;
   will-change: transform;
   transform: translateY(20px);
-} */
+}
 .fade_in.active {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 html,
 body {
@@ -280,7 +282,7 @@ canvas {
   padding: 0.5rem;
   background: #ececec;
   border-radius: 10px;
-  font-size: 0.494rem;
+  font-size: 0.8rem;
 }
 
 .project_services {
@@ -401,6 +403,7 @@ form {
 }
 
 .email {
+  max-width: 350px;
   padding: 0.5rem;
   background-color: rgba(97, 97, 97, 0.599);
   border: none;

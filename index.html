@@ -42,11 +42,11 @@
           </svg>
 
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
         </div>
       </header>
@@ -95,32 +95,14 @@
         </div>
       </section>
 
-      <section>
-        <div class="container">
-          <h3 class="fade_in about_us">About Us</h3>
-          <div class="about__us fade-in">
-            <p style="text-indent: 4rem">
-              I'm a passionate web designer focused on crafting sleek,
-              intuitive, and user-friendly digital experiences. <br />
-              With a strong eye for UI/UX, I specialize in creating modern,
-              responsive websites that blend aesthetics with functionality.
-              <br /><br />
-
-              My design approach is user-centric, ensuring every detail enhances
-              usability and engagement. <br />
-              I stay updated with the latest trends, translating ideas into
-              pixel-perfect designs that leave a lasting impact. <br />
-              Whether it’s a fresh website or a redesign, I bring creativity and
-              precision to every project.
-            </p>
-          </div>
-          <div class="about-tiles fade-in"></div>
-        </div>
+      <section id="services">
+        <!-- <h3>Services</h3> -->
+        <div class="about-tiles fade-in"></div>
       </section>
 
       <section id="projects">
         <div class="container projects_grid">
-          <h3 style="grid-column: span 12"></h3>
+          <h3 style="grid-column: span 12">Projects</h3>
         </div>
       </section>
 
@@ -150,6 +132,28 @@
           <div class="line"></div>
         </div>
       </section>
+      <section id="about_us">
+        <div class="container">
+          <h3 class="fade_in about_us">About Us</h3>
+          <div class="about__us fade-in">
+            <p style="text-indent: 4rem">
+              I'm a passionate web designer focused on crafting sleek,
+              intuitive, and user-friendly digital experiences. <br />
+              With a strong eye for UI/UX, I specialize in creating modern,
+              responsive websites that blend aesthetics with functionality.
+              <br /><br />
+
+              My design approach is user-centric, ensuring every detail enhances
+              usability and engagement. <br />
+              I stay updated with the latest trends, translating ideas into
+              pixel-perfect designs that leave a lasting impact. <br />
+              Whether it’s a fresh website or a redesign, I bring creativity and
+              precision to every project.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="cta_section">
         <canvas id="squareCanvas"></canvas>
         <div class="top_gradient"></div>
@@ -177,10 +181,23 @@
           </div>
         </div>
       </section>
-      <footer>
+
+      <footer id="footer">
         <div class="container footer_container">
           <div class="footer_column">
             <!--SVG LOGO-->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              fill="#fff"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M223.68,66.15,135.68,18a15.94,15.94,0,0,0-15.36,0l-88,48.18a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM168,152v50.09l-32,17.52V132.74l80-43.8v32l-43.84,24A8,8,0,0,0,168,152Zm-84.16-7L40,121v-32l80,43.8v86.87L88,202.09V152A8,8,0,0,0,83.84,145Zm-.7-88.41,41,22.45a8,8,0,0,0,7.68,0l41-22.45,34.48,18.87L128,118.88,48.66,75.44ZM128,32h0l28.2,15.44L128,62.89,99.8,47.45ZM40,139.22l32,17.52v36.59L40,175.82Zm144,54.11V156.74l32-17.52v36.6Z"
+              ></path>
+            </svg>
+
             <p>Chhindwara <br />India <br />vedantcodes30@gmail.com</p>
           </div>
           <div class="footer_column">
@@ -202,8 +219,30 @@
             <div>
               <p>&copy; 2025 Vedant Codes. All Rights Reserved.</p>
               <div class="footer_links">
-                <a href="">insta</a>
-                <a href="">github</a>
+                <a href="https://www.instagram.com/vedantcodes" target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#fff"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                    ></path></svg
+                ></a>
+                <a href="https://www.github.com" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#fff"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"
+                    ></path></svg
+                ></a>
               </div>
             </div>
           </div>
